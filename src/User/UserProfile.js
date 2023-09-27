@@ -6,14 +6,15 @@ export default function UserProfile(props) {
     // Burada UserDetails bileşenine geçirmek istediğiniz props'ları tanımlayın
     name: "erkan",
     surname: "murat",
-    age: 30,
+    age: 23,
     // ...
   };
 
   return (
     <>
-      <UserAction />
       <UserDetails {...userDetailsProps} />
+      <br />
+      <UserAction />
     </>
   );
 }
