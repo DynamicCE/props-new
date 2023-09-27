@@ -37,8 +37,20 @@ function App() {
       </div>
       <hr />
       {`User Informations`}
+
+      <UserProfile />
     </>
   );
 }
 
 export default App;
+{
+  /*comment lines *
+  
+App ana (parent) componenttir. User, Welcome, ToDo ve UserProfile componentlerini içerir.
+UserProfile da bir parent componenttir çünkü UserDetails ve UserAction componentlerini içerir.
+UserDetails ve UserAction ise UserProfile'ın child (çocuk) componentleridir.
+Yani, App en üst seviyede bir parent, UserProfile hem parent hem de child, UserDetails ve UserAction ise sadece child componentlerdir./
+
+*/
+}
