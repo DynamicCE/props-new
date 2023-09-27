@@ -1,6 +1,6 @@
 import "./App.css";
 import User from "./components/User";
-
+import Welcome from "./components/Welcome";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
         age={25}
         section="angular"
       />
+      <Welcome name="erkan" />
     </>
   );
 }
